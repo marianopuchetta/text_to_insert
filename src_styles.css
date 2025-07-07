@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px #0001;
+  padding: 32px 24px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+label {
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  height: 220px;
+  font-size: 15px;
+  font-family: "Fira mono", monospace;
+  margin: 8px 0 12px 0;
+  padding: 7px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  resize: vertical;
+}
+button {
+  background: #2978d7;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+button:active {
+  background: #225da5;
+}
+.result {
+  margin-top: 20px;
+}
+.sql-out {
+  background: #222;
+  color: #f6f6f6;
+  font-family: "Fira mono", monospace;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: pre;
+  overflow-x: auto;
+}
+.copied {
+  color: #2978d7;
+  font-size: 13px;
+  margin-left: 12px;
+}
+@media (max-width: 700px) {
+  .container { padding: 10px; }
+}
